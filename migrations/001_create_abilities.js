@@ -5,7 +5,7 @@ async function up() {
     CREATE TABLE abilities (
       id SERIAL PRIMARY KEY,
       name VARCHAR(100) NOT NULL,
-      value TEXT,
+      value VARCHAR(100),
       description TEXT,
       max_quantity INTEGER
     );
