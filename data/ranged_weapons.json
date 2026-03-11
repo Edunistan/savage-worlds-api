@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Axe, Throwing",
+        "type": "Ranged weapon",
+        "cost": 100,
+        "weight": 3,
+        "notes": "",
+
+        "category": "Medieval",
+        "range": "3/6/12",
+        "damage": "Str+d6",
+        "ap": 0,
+        "rof": 1,
+        "shots": 1,
+        "min_str": 6
+    }
+]

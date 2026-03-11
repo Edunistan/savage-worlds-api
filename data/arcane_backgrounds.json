@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Gifted",
+        "arcane_skill": "Focus (Spirit)",
+        "starting_powers": 1,
+        "power_points": 15,
+        "description": "The character has innate abilities that don't fit into the usual tropes of magic, miracles, or psionics. Their powers may be low-level super powers, divine gifts, or even alien abilities, and are often very unusual or unique for their setting."
+    }
+]

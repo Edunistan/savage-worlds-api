@@ -1,0 +1,9 @@
+[
+  {
+    "name": "Alertness",
+    "category": "Background",
+    "requirements": "n",
+    "description": "Not much gets by this hero. He's very observant amd perceptive, and adds +2 to his Notice rolls to hear, see, or otherwise sense the world around him.",
+    "summary": "+2 to Notice rolls."
+  }
+]

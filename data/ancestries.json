@@ -1,6 +1,7 @@
 [
   {
-    "name": "Human",
-    "description": "Humans in most settings get one free Edge of their choice. This option reflects their versality and adaptability compared to most other races.\nFor more variety, the GM might give humans abilities based on culture rather than race."
+    "name": "Android",
+    "description": "Androids are semi-organic beings created by advanced technology. The example here mimics humans in most ways and can generally pass for them when desired (and not examined by a physician). Their advanced neural network gives them artificial intelligence complete with individual personalities, quirks, and emotions just like any other sapient being.",
+    "abilities": [0]
   }
 ]

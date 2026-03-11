@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Jacket (torso, arms)",
+        "type": "Armor",
+        "cost": 20,
+        "weight": 5,
+        "notes": "",
+
+        "category": "Medieval & ancient armor",
+        "armor": 1,
+        "min_str": 4 
+    }
+]

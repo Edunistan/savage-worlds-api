@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Academics",
+        "linked_attribute": "Smarts",
+        "description": "Academics reflects knowledge of the liberal arts, social sciences, literature, history, archeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from 'Macbeth', this is the skill to have.",
+        "summary": "Knowledge of liberal arts, social science, literature, history, etc.",
+        "is_core": false
+    }
+]

@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Horse",
+        "type": "animal",
+        "cost": 300,
+        "weight": 0,
+        "notes": ""
+    }
+]

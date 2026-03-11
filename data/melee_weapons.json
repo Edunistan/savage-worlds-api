@@ -1,0 +1,13 @@
+[
+    {
+        "name": "Axe, Hand",
+        "type": "Melee weapon",
+        "cost": 100,
+        "weight": 2,
+        "notes": "",
+
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    }
+]

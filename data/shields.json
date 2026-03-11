@@ -1,0 +1,12 @@
+{
+        "name": "Small shield",
+        "type": "Shield",
+        "cost": 50,
+        "weight": 4,
+        "notes": "",
+
+        "category": "Ancient & medieval",
+        "parry": 1,
+        "cover": 0,
+        "min_str": 4
+    }
