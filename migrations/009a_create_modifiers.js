@@ -2,17 +2,15 @@ const pool = require("../src/db/pool");
 
 async function up() {
   await pool.query(`
-    CREATE TABLE edges (
+    CREATE TABLE modifiers (
       id SERIAL PRIMARY KEY,
       name VARCHAR(100) NOT NULL,
-      category VARCHAR(100),
-      requirements CHAR(1),
-      description TEXT,
-      summary TEXT
+      cost VARCHAR(10),
+      description TEXT
     );
   `);
 
-  console.log("edges table created");
+  console.log("modifiers table created");
 }
 
 up()

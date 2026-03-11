@@ -5,9 +5,10 @@ async function up() {
     CREATE TABLE arcane_backgrounds (
       id SERIAL PRIMARY KEY,
       name VARCHAR(100) NOT NULL,
-      description TEXT,
+      arcane_skill VARCHAR(100),
       starting_powers INTEGER,
-      power_points INTEGER
+      power_points INTEGER,
+      description TEXT
     );
   `);
 

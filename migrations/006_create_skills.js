@@ -6,7 +6,9 @@ async function up() {
       id SERIAL PRIMARY KEY,
       name VARCHAR(100) NOT NULL,
       description TEXT,
-      summary TEXT
+      summary TEXT,
+      linked_attribute VARCHAR(100),
+      is_core BOOLEAN
     );
   `);
 

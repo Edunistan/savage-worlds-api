@@ -7,8 +7,8 @@ async function up() {
       name VARCHAR(100) NOT NULL,
       type VARCHAR(100),
       cost INTEGER,
-      weight INTEGER,
-      description TEXT
+      weight FLOAT,
+      notes TEXT
     );
   `);
 
