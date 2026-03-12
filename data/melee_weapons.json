@@ -9,5 +9,17 @@
         "category": "Medieval",
         "damage": "Str+d6",
         "min_str": 6
+    },
+
+    {
+        "name": "Axe, Battle",
+        "type": "Melee weapon",
+        "cost": 300,
+        "weight": 4,
+        "notes": "",
+
+        "category": "Medieval",
+        "damage": "Str+d8",
+        "min_str": 8
     }
 ]

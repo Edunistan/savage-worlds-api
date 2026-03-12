@@ -6,9 +6,27 @@
         "weight": 3,
         "notes": "",
 
-        "category": "Medieval",
+        "category": "Ranged weapons",
+        "subcategory": "Medieval",
         "range": "3/6/12",
         "damage": "Str+d6",
+        "ap": 0,
+        "rof": 1,
+        "shots": 1,
+        "min_str": 6
+    },
+
+    {
+        "name": "Bow",
+        "type": "Ranged weapon",
+        "cost": 250,
+        "weight": 3,
+        "notes": "",
+
+        "category": "Ranged weapons",
+        "subcategory": "Medieval",
+        "range": "12/24/48",
+        "damage": "2d6",
         "ap": 0,
         "rof": 1,
         "shots": 1,

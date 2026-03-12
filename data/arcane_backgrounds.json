@@ -5,5 +5,13 @@
         "starting_powers": 1,
         "power_points": 15,
         "description": "The character has innate abilities that don't fit into the usual tropes of magic, miracles, or psionics. Their powers may be low-level super powers, divine gifts, or even alien abilities, and are often very unusual or unique for their setting."
+    },
+
+    {
+        "name": "Magic",
+        "arcane_skill": "Spellcasting (Smarts)",
+        "starting_powers": 3,
+        "power_points": 10,
+        "description": "Magicians range from powerful wizards to vile cultists. They draw on raw supernatural energy to fuel their eldritch fires. This energy infuses the world in which they live, and is drawn forth with gestures, words of power, or ancient runes.\nActivation: Magic-users must be able to speak and gesture (they cannot be Bound) to cast their spells."
     }
 ]

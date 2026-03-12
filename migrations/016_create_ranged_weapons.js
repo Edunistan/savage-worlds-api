@@ -6,6 +6,7 @@ async function up() {
       id SERIAL PRIMARY KEY,
       gear_id INTEGER REFERENCES gear(id) ON DELETE CASCADE,
       category VARCHAR(100),
+      subcategory VARCHAR(100),
       damage VARCHAR(100),
       min_str INTEGER,
       range VARCHAR(100),

@@ -2,6 +2,21 @@
   {
     "name": "Android",
     "description": "Androids are semi-organic beings created by advanced technology. The example here mimics humans in most ways and can generally pass for them when desired (and not examined by a physician). Their advanced neural network gives them artificial intelligence complete with individual personalities, quirks, and emotions just like any other sapient being.",
-    "abilities": [0]
+    "abilities": [
+      "Pacifist (Major): Unless the android is designed for combar, most advanced societies require the installation of 'Asimov Circuits', a concept based on science fiction writer Isaac Asimov's 'First Law of Robotics.'\nThe artificial being may not injure a sapient being, or through action or inaction, allow such a being to be harmed. This gives them the Pacifist (Major) Hindrance.",
+      "Outsider (Major): Androids subtract 2 from Persuasion rolls when interacting with anyone besides other androids, and have no legal rights in most areas (they're generally considered property).",
+      "Vow (Major): Constructs are designed with a particular purpose. Player character constructs have broad directives such as serving a particular corporation or political faction. This acts as a Major Vow to that particular directive. If this ever causes a conflict of interest, the player and GM must figure out what the construct's programming requires."
+    ]
+  },
+
+  {
+    "name": "Aquarian",
+    "description": "From the crushing ocean depths come aquatic folk. They are thick and sturdy beneath the waves but often vulnerable in the dry air or searing heat of the surface.",
+    "abilities": [
+      "Aquatic: Aquarians cannot drown in water and move at their full Pace when swimming.",
+      "Dependency: Aquarians must immerse themselves in water one hour out of every 24 or become automatically Fatigued each day until they are Incapacitated. The day after Incapacitation from dehydration, they perish. Each hour spent in water restores one level of Fatigue.",
+      "Low Light Vision: Aquarians are used to the darkness of the depths. They ignore penalties for Dim and Dark Illumination.",
+      "Toughness: Life in the depths of their watery worlds has made aquarian flesh tough and resilient. Add +1 to their Toughness."
+    ]
   }
 ]

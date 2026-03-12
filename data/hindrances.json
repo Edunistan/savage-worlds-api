@@ -1,8 +1,15 @@
 [
   {
     "name": "All Thumbs",
-    "type": "minor",
+    "type": "Minor",
     "description": "Due to upbringing, lack of exposure, or pure bad luck, some individuals are 'all thumbs' when it comes to mechanical or technological devices.\nAll Thumbs inflicts a -2 penalty when using mechanical or electrical devices. If he rolls a Critical Failure while using such a device (and it doesn't already have a built-in effect), it's broken. If the GM feels it's appropiate, it can be fixed with a Repair roll and 1d6 hours.",
     "summary": "-2 to use mechanical or electrical devices."
+  },
+
+  {
+    "name": "Anemic",
+    "type": "Minor",
+    "description": "Anemic characters are particularly susceptible to sickness, disease, environmental effects, and fatigue. They subtract 2 from Vigor rolls made to resist Fatigue.",
+    "summary": "-2 Vigor when resisting Fatigue."
   }
 ]

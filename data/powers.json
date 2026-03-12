@@ -8,5 +8,16 @@
         "trappings": "Concentration, a dull glow around the protected character, a fetish.",
         "description": "Success with arcane protection means hostile powers suffer a -2 penalty (-4 with a raise) to affect this character. If the power causes harm, damage is also reduced a like amount.\nArcane protection stacks with Arcane Resistance should the recipient have both!",
         "summary": "Enemy casters substract 2 (4 with a raise) when targeting this character; reduces damage a like amount."
+    },
+
+    {
+        "name": "Armor/Protection",
+        "rank": "n",
+        "power_points": "1",
+        "range": "Smarts",
+        "duration": "5",
+        "trappings": "A mystical glow, hardened skin, ethereal armor, a mass of nanites.",
+        "description": "Creates a field of energy or armor around a character, giving him 2 points of Armor, or +4 with a raise.\nWether te protection is visible or not depends on the Trapping - this is entirely up to the caster.\nDoesn't normally stack with other armor, but see the Toughness modifier.",
+        "summary": "Grants Armor +2/+4."
     }
 ]

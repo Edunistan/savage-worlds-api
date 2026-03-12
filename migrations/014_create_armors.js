@@ -2,17 +2,17 @@ const pool = require("../src/db/pool");
 
 async function up() {
   await pool.query(`
-    CREATE TABLE edges (
+    CREATE TABLE armors (
       id SERIAL PRIMARY KEY,
-      name VARCHAR(100) NOT NULL,
+      gear_id INTEGER REFERENCES gear(id) ON DELETE CASCADE,
       category VARCHAR(100),
-      requirements CHAR(1),
-      description TEXT,
-      summary TEXT
+      subcategory VARCHAR(100),
+      armor INTEGER,
+      min_str INTEGER
     );
   `);
 
-  console.log("edges table created");
+  console.log("armors table created");
 }
 
 up()

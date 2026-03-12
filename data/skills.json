@@ -5,5 +5,13 @@
         "description": "Academics reflects knowledge of the liberal arts, social sciences, literature, history, archeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from 'Macbeth', this is the skill to have.",
         "summary": "Knowledge of liberal arts, social science, literature, history, etc.",
         "is_core": false
+    },
+
+    {
+        "name": "Athletics",
+        "linked_attribute": "Agility",
+        "description": "Athletics combines an individual's coordination with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely in physical power more than coordination can take the Brute Edge to link this skill to Strength instead of Agility.",
+        "summary": "Overall athletic coordination and ability. Climbing, jumping, balancing, wrestling, skiing, swimming, throwing, or catching.",
+        "is_core": true
     }
 ]

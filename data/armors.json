@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Jacket (torso, arms)",
+        "type": "Armor",
+        "cost": 20,
+        "weight": 5,
+        "notes": "",
+
+        "category": "Medieval & ancient armor",
+        "subcategory": "Cloth/light leather",
+        "armor": 1,
+        "min_str": 4 
+    },
+
+    {
+        "name": "Robes (torso, arms, legs)",
+        "type": "Armor",
+        "cost": 30,
+        "weight": 8,
+        "notes": "",
+
+        "category": "Medieval & ancient armor",
+        "subcategory": "Cloth/light leather",
+        "armor": 1,
+        "min_str": 4 
+    }
+]

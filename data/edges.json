@@ -2,8 +2,16 @@
   {
     "name": "Alertness",
     "category": "Background",
-    "requirements": "n",
+    "requirements": "Novice",
     "description": "Not much gets by this hero. He's very observant amd perceptive, and adds +2 to his Notice rolls to hear, see, or otherwise sense the world around him.",
     "summary": "+2 to Notice rolls."
+  },
+
+  {
+    "name": "Ambidextrous",
+    "category": "Background",
+    "requirements": "Novice, Agility d8+",
+    "description": "Your warrior is as deft with his left hand as he is with his right. He ifnores the Off-Hand penalty.\nIf holding a weapon in each hand, Ambidextrous characters may stack Parry bonuses (if any) from both weapons.",
+    "summary": "Ignore -2 penalty when making Trait rolls with off-hand."
   }
 ]

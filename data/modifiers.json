@@ -1,0 +1,19 @@
+[
+    {
+        "name": "Additional Recipients",
+        "cost": "1",
+        "description": "The power may affect more than one target for 1 additional Power Point each."
+    },
+
+    {
+        "name": "More Armor",
+        "cost": "1",
+        "description": "Success grants 4 points of Armor (+6 with a raise)."
+    },
+
+    {
+        "name": "Toughness",
+        "cost": "2",
+        "description": "Provides Toughness instead of Armor and is not affected by AP (magical or otherwise). This means it stacks with natural or worn armor."
+    }
+]

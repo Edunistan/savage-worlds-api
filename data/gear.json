@@ -1,8 +1,16 @@
 [
     {
         "name": "Horse",
-        "type": "animal",
+        "type": "Animals & tack",
         "cost": 300,
+        "weight": 0,
+        "notes": ""
+    },
+
+    {
+        "name": "War Horse",
+        "type": "Animals & tack",
+        "cost": 750,
         "weight": 0,
         "notes": ""
     }
