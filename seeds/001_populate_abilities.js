@@ -1,28 +1,31 @@
 const pool = require("../src/db/pool");
+const abilities = require("../data/abilities.json")
 
 async function seed() {
+  
+  const values = abilities.map(a => [
+    a.name,
+    a.value,
+    a.description,
+    a.max_quantity
+  ]);
 
-    await pool.query(`
-        INSERT INTO abilities (name, value, description, max_quantity) VALUES
-        ('Adaptable', '2',
-        'The race has great variation among its people and cultures. Characters start with a free Novice Edge of their choice (and must meet all the Edge''s Requirements).',
-        1),
+  const query = `
+  INSERT INTO abilities (name, value, description, max_quantity)
+  VALUES ($1, $2, $3, $4)
+  `;
 
-        ('Aditional Action', '3',
-        'The being has additional appendages, enhanced reflexes, or exceptional eye-hand coordination. He may ignore 2 points of Multi-Action penalties each turn.',
-        1),
+  for (const v of values) {
+    await pool.query(query, v);
+  }
 
-        ('Aquatic/Semi-Aquatic', '1/2',
-        'For one point the character is semi-aquatic and can hold his breath for 15 minutes before checking for drowning. For two, he''s native to the water. He cannot drown in oxygenated liquid and moves his full Pace when swimming.',
-        1);
-    `)
-
+  console.log("Abilities imported");
 }
 
 seed()
   .then(async () => {
     await pool.end();
-    process.exit();
+    process.exit(0);
   })
   .catch(async err => {
     console.error(err);

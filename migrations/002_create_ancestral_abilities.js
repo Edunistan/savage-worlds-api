@@ -5,7 +5,7 @@ async function up() {
     CREATE TABLE ancestral_abilities (
       id SERIAL PRIMARY KEY,
       name VARCHAR(100) NOT NULL,
-      description TEXT,
+      description TEXT
     );
   `);
 
