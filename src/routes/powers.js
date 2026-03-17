@@ -3,7 +3,7 @@ const router = express.Router();
 const pool = require("../db/pool");
 
 router.get("/", async (req, res) => {
-  const { q } = req.query;
+  const { q, r, pp } = req.query;
   let result;
 
   try {
@@ -11,9 +11,13 @@ router.get("/", async (req, res) => {
         `SELECT * FROM powers 
          WHERE 
            ($1::text IS NULL OR name ILIKE $1 OR description ILIKE $1 OR summary ILIKE $1 OR trappings ILIKE $1)
+           AND ($2::text IS NULL OR rank ILIKE $2)
+           AND ($3::text IS NULL or power_points ILIKE $3)
          ORDER BY id`,
         [
-          q ? `%${q}%` : null
+          q ? `%${q}%` : null,
+          r? `%${r}%` : null,
+          pp ? `%${pp}%` : null
         ]
       );
 

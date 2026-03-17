@@ -3,7 +3,7 @@ const router = express.Router();
 const pool = require("../db/pool");
 
 router.get("/", async (req, res) => {
-  const { q } = req.query;
+  const { q, l, core } = req.query;
   let result;
 
   try {
@@ -11,9 +11,13 @@ router.get("/", async (req, res) => {
         `SELECT * FROM skills 
          WHERE 
            ($1::text IS NULL OR name ILIKE $1 OR description ILIKE $1 OR summary ILIKE $1)
+           AND ($2::text IS NULL OR linked_attribute ILIKE $2)
+           AND ($3::boolean IS NULL OR is_core = $3::boolean)
          ORDER BY id`,
         [
-          q ? `%${q}%` : null
+          q ? `%${q}%` : null,
+          l ? `%${l}%` : null,
+          core ? core : null
         ]
       );
 
