@@ -7,9 +7,6 @@ router.get("/", async (req, res) => {
   let result;
 
   try {
-    if (!q && !r) {
-      result = await pool.query("SELECT * FROM edges ORDER BY id");
-    } else {
       result = await pool.query(
         `SELECT * FROM edges 
          WHERE 
@@ -21,7 +18,6 @@ router.get("/", async (req, res) => {
           r ? `%${r}%` : null
         ]
       );
-    }
 
     res.json(result.rows);
 
