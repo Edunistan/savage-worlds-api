@@ -7,12 +7,15 @@ router.get("/", async (req, res) => {
   let result;
 
   try {
-    if (!q) {result = await pool.query("SELECT * FROM ancestries ORDER BY id");}
-
-    else {result = await pool.query(
-      "SELECT * FROM ancestries WHERE name ILIKE $1 OR description ILIKE $1 ORDER BY id",
-      [`%${q}%`]
-    );}
+      result = await pool.query(
+        `SELECT * FROM ancestries 
+         WHERE 
+           ($1::text IS NULL OR name ILIKE $1 OR description ILIKE $1)
+         ORDER BY id`,
+        [
+          q ? `%${q}%` : null
+        ]
+      );
 
     res.json(result.rows);
 
