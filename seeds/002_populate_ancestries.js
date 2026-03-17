@@ -22,18 +22,10 @@ async function seed() {
             const description = parts.slice(1).join(":").trim();
 
             const abilityResult = await pool.query(
-                `INSERT INTO ancestral_abilities (name, description)
-                VALUES ($1, $2)
+                `INSERT INTO ancestral_abilities (ancestry_id, name, description)
+                VALUES ($1, $2, $3)
                 RETURNING id`,
-                [name, description]
-            );
-
-            const abilityId = abilityResult.rows[0].id;
-
-            await pool.query(
-                `INSERT INTO ancestry_abilities (ancestry_id, ability_id)
-                VALUES ($1, $2)`,
-                [ancestryId, abilityId]
+                [ancestryId, name, description]
             );
         }
     }

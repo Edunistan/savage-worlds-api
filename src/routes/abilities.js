@@ -3,26 +3,19 @@ const router = express.Router();
 const pool = require("../db/pool");
 
 router.get("/", async (req, res) => {
-  try {
-    const result = await pool.query("SELECT * FROM abilities ORDER BY id");
-    res.json(result.rows);
-
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: "Server error" });
-  }
-});
-
-router.get("/search", async (req, res) => {
   const { q } = req.query;
-  if (!q) return res.status(400).json({ error: "Query parameter 'q' is required" });
+  let result;
 
   try {
-    const result = await pool.query(
+    if (!q) {result = await pool.query("SELECT * FROM abilities ORDER BY id");}
+
+    else {result = await pool.query(
       "SELECT * FROM abilities WHERE name ILIKE $1 OR description ILIKE $1 ORDER BY id",
       [`%${q}%`]
-    );
+    );}
+
     res.json(result.rows);
+
   } catch (err) {
     console.error(err);
     res.status(500).json({ error: "Server error" });

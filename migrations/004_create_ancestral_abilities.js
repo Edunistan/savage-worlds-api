@@ -4,6 +4,7 @@ async function up() {
   await pool.query(`
     CREATE TABLE ancestral_abilities (
       id SERIAL PRIMARY KEY,
+      ancestry_id INTEGER REFERENCES ancestries(id) ON DELETE CASCADE,
       name VARCHAR(100) NOT NULL,
       description TEXT
     );
