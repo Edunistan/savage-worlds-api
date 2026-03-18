@@ -5,23 +5,383 @@
         "cost": 20,
         "weight": 5,
         "notes": "",
-
         "category": "Medieval & ancient armor",
         "subcategory": "Cloth/light leather",
         "armor": 1,
-        "min_str": 4 
+        "min_str": 4
     },
-
     {
         "name": "Robes (torso, arms, legs)",
         "type": "Armor",
         "cost": 30,
         "weight": 8,
         "notes": "",
-
         "category": "Medieval & ancient armor",
         "subcategory": "Cloth/light leather",
         "armor": 1,
-        "min_str": 4 
+        "min_str": 4
+    },
+    {
+        "name": "Leggings (legs)",
+        "type": "Armor",
+        "cost": 20,
+        "weight": 5,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Cloth/light leather",
+        "armor": 1,
+        "min_str": 4
+    },
+    {
+        "name": "Cap (head)",
+        "type": "Armor",
+        "cost": 5,
+        "weight": 1,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Cloth/light leather",
+        "armor": 1,
+        "min_str": 4
+    },
+    {
+        "name": "Jacket (torso, arms)",
+        "type": "Armor",
+        "cost": 80,
+        "weight": 8,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Thick leather/tough hides",
+        "armor": 2,
+        "min_str": 6
+    },
+    {
+        "name": "Leggings (legs)",
+        "type": "Armor",
+        "cost": 40,
+        "weight": 7,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Thick leather/tough hides",
+        "armor": 2,
+        "min_str": 6
+    },
+    {
+        "name": "Cap (head)",
+        "type": "Armor",
+        "cost": 20,
+        "weight": 1,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Thick leather/tough hides",
+        "armor": 2,
+        "min_str": 6
+    },
+    {
+        "name": "Shirt (torso, arms)",
+        "type": "Armor",
+        "cost": 300,
+        "weight": 25,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Chain mail",
+        "armor": 3,
+        "min_str": 8
+    },
+    {
+        "name": "Leggings (legs)",
+        "type": "Armor",
+        "cost": 150,
+        "weight": 10,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Chain mail",
+        "armor": 3,
+        "min_str": 8
+    },
+    {
+        "name": "Chain Hood (head)",
+        "type": "Armor",
+        "cost": 25,
+        "weight": 4,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Chain mail",
+        "armor": 3,
+        "min_str": 8
+    },
+    {
+        "name": "Bronze Barding (horse)",
+        "type": "Armor",
+        "cost": 1500,
+        "weight": 50,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Bronze armor (pre-iron age settings)",
+        "armor": 3,
+        "min_str": 10
+    },
+    {
+        "name": "Bronze Corselet (torso)",
+        "type": "Armor",
+        "cost": 80,
+        "weight": 13,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Bronze armor (pre-iron age settings)",
+        "armor": 3,
+        "min_str": 8
+    },
+    {
+        "name": "Vambraces (arms)",
+        "type": "Armor",
+        "cost": 40,
+        "weight": 5,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Bronze armor (pre-iron age settings)",
+        "armor": 3,
+        "min_str": 8
+    },
+    {
+        "name": "Greaves (legs)",
+        "type": "Armor",
+        "cost": 50,
+        "weight": 6,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Bronze armor (pre-iron age settings)",
+        "armor": 3,
+        "min_str": 8
+    },
+    {
+        "name": "Bronze Helmet (head)",
+        "type": "Armor",
+        "cost": 25,
+        "weight": 6,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Bronze armor (pre-iron age settings)",
+        "armor": 3,
+        "min_str": 8
+    },
+    {
+        "name": "Plate Barding (horse)",
+        "type": "Armor",
+        "cost": 1500,
+        "weight": 50,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Plate mail",
+        "armor": 4,
+        "min_str": 10
+    },
+    {
+        "name": "Corselet (torso)",
+        "type": "Armor",
+        "cost": 500,
+        "weight": 30,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Plate mail",
+        "armor": 4,
+        "min_str": 10
+    },
+    {
+        "name": "Vambraces (arms)",
+        "type": "Armor",
+        "cost": 200,
+        "weight": 10,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Plate mail",
+        "armor": 4,
+        "min_str": 10
+    },
+    {
+        "name": "Greaves (legs)",
+        "type": "Armor",
+        "cost": 200,
+        "weight": 10,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Plate mail",
+        "armor": 4,
+        "min_str": 10
+    },
+    {
+        "name": "Helm, Pot (head)",
+        "type": "Armor",
+        "cost": 100,
+        "weight": 4,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Plate mail",
+        "armor": 4,
+        "min_str": 10
+    },
+    {
+        "name": "Helm, Enclosed (head)",
+        "type": "Armor",
+        "cost": 200,
+        "weight": 8,
+        "notes": "",
+        "category": "Medieval & ancient armor",
+        "subcategory": "Plate mail",
+        "armor": 4,
+        "min_str": 10
+    },
+    {
+        "name": "Thick Coat, Leather Jacket (torso, arms)",
+        "type": "Armor",
+        "cost": 100,
+        "weight": 5,
+        "notes": "",
+        "category": "Modern Armor",
+        "subcategory": "Cloth/Leather",
+        "armor": 1,
+        "min_str": 4
+    },
+    {
+        "name": "Leather Riding Chaps (legs)",
+        "type": "Armor",
+        "cost": 70,
+        "weight": 5,
+        "notes": "",
+        "category": "Modern Armor",
+        "subcategory": "Cloth/Leather",
+        "armor": 1,
+        "min_str": 4
+    },
+    {
+        "name": "Kevlar Riding Jacket (torso, arms)",
+        "type": "Armor",
+        "cost": 350,
+        "weight": 8,
+        "notes": "",
+        "category": "Modern Armor",
+        "subcategory": "Cloth/Leather",
+        "armor": 2,
+        "min_str": 4
+    },
+    {
+        "name": "Kevlar Riding Jeans (legs)",
+        "type": "Armor",
+        "cost": 175,
+        "weight": 4,
+        "notes": "",
+        "category": "Modern Armor",
+        "subcategory": "Cloth/Leather",
+        "armor": 2,
+        "min_str": 4
+    },
+    {
+        "name": "Bike helmet (head)",
+        "type": "Armor",
+        "cost": 50,
+        "weight": 1,
+        "notes": "",
+        "category": "Modern Armor",
+        "subcategory": "Cloth/Leather",
+        "armor": 2,
+        "min_str": 4
+    },
+    {
+        "name": "Motorcycle Helmet (head)",
+        "type": "Armor",
+        "cost": 100,
+        "weight": 3,
+        "notes": "",
+        "category": "Modern Armor",
+        "subcategory": "Cloth/Leather",
+        "armor": 3,
+        "min_str": 4
+    },
+    {
+        "name": "Flak Jacket (Vietnam-era, torso)",
+        "type": "Armor",
+        "cost": 40,
+        "weight": 10,
+        "notes": "",
+        "category": "Modern Armor",
+        "subcategory": "Body Armor",
+        "armor": 2,
+        "min_str": 6
+    },
+    {
+        "name": "Kevlar Vest (torso)",
+        "type": "Armor",
+        "cost": 200,
+        "weight": 5,
+        "notes": "Ballistic Protection",
+        "category": "Modern Armor",
+        "subcategory": "Body Armor",
+        "armor": 2,
+        "min_str": 6
+    },
+    {
+        "name": "Kevlar Vest with ceramic inserts (torso)",
+        "type": "Armor",
+        "cost": 500,
+        "weight": 17,
+        "notes": "Ballistic Protection",
+        "category": "Modern Armor",
+        "subcategory": "Body Armor",
+        "armor": 4,
+        "min_str": 8
+    },
+    {
+        "name": "Kevlar helmet (head)",
+        "type": "Armor",
+        "cost": 80,
+        "weight": 5,
+        "notes": "Ballistic Protection",
+        "category": "Modern Armor",
+        "subcategory": "Body Armor",
+        "armor": 4,
+        "min_str": 4
+    },
+    {
+        "name": "Bombproof Suit (entire body)",
+        "type": "Armor",
+        "cost": 25000,
+        "weight": 80,
+        "notes": "Bombproof suits aren't built for flexibility except in the hands, which are uncovered. Agility and related skills that require more than manual dexterity cannot exceed d6 while wearing the suit, and Pace is reduced by 2 (in addition to Minimum Strength penalties).",
+        "category": "Modern Armor",
+        "subcategory": "Body Armor",
+        "armor": 10,
+        "min_str": 12
+    },
+    {
+        "name": "Body Armor (torso, arms, legs)",
+        "type": "Armor",
+        "cost": 200,
+        "weight": 4,
+        "notes": "Light, armored clothing made from complex polymers or advanced ballistic weave. Ballistic Protection",
+        "category": "Futuristic Armor",
+        "subcategory": "Light/Civilian Armor",
+        "armor": 4,
+        "min_str": 4
+    },
+    {
+        "name": "Infantry Battle Suit (torso, arms, legs)",
+        "type": "Armor",
+        "cost": 800,
+        "weight": 12,
+        "notes": "A full suit of armor with boots and gloves. Ballistic Protection",
+        "category": "Futuristic Armor",
+        "subcategory": "Military Armor",
+        "armor": 6,
+        "min_str": 6
+    },
+    {
+        "name": "Battle Helmet (head, full face)",
+        "type": "Armor",
+        "cost": 100,
+        "weight": 2,
+        "notes": "Ballistic Protection",
+        "category": "Futuristic Armor",
+        "subcategory": "Military Armor",
+        "armor": 6,
+        "min_str": 6
     }
 ]

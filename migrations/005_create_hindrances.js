@@ -5,7 +5,7 @@ async function up() {
     CREATE TABLE hindrances (
       id SERIAL PRIMARY KEY,
       name VARCHAR(100) NOT NULL,
-      type VARCHAR(10),
+      type VARCHAR(20),
       description TEXT,
       summary TEXT
     );

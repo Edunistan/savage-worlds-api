@@ -1,17 +1,226 @@
 [
-    {
-        "name": "Academics",
-        "linked_attribute": "Smarts",
-        "description": "Academics reflects knowledge of the liberal arts, social sciences, literature, history, archeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from 'Macbeth', this is the skill to have.",
-        "summary": "Knowledge of liberal arts, social science, literature, history, etc.",
-        "is_core": false
-    },
-
-    {
-        "name": "Athletics",
-        "linked_attribute": "Agility",
-        "description": "Athletics combines an individual's coordination with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely in physical power more than coordination can take the Brute Edge to link this skill to Strength instead of Agility.",
-        "summary": "Overall athletic coordination and ability. Climbing, jumping, balancing, wrestling, skiing, swimming, throwing, or catching.",
-        "is_core": true
-    }
+  {
+    "name": "Academics",
+    "linked_attribute": "Smarts",
+    "description": "Academics reflects knowledge of the liberal arts, social sciences, literature, history, archaeology, and similar fields. If an explorer wants to remember when the Mayan calendar ended or cite a line from 'Macbeth', this is the skill to have.",
+    "summary": "Knowledge of liberal arts, social sciences, literature, history, etc.",
+    "is_core": false
+  },
+  {
+    "name": "Athletics",
+    "linked_attribute": "Agility",
+    "description": "Athletics combines an individual's coordination with learned skills such as climbing, jumping, balancing, biking, wrestling, skiing, swimming, throwing, or catching. Characters who rely on physical power more than coordination can take the Brute Edge to link this skill to Strength instead of Agility.",
+    "summary": "Overall athletic coordination and ability. Climbing, jumping, balancing, wrestling, skiing, swimming, throwing, or catching.",
+    "is_core": true
+  },
+  {
+    "name": "Battle",
+    "linked_attribute": "Smarts",
+    "description": "Battle is an individual's command of strategy and tactics. It can be used for general military knowledge and is critical when commanding troops in Mass Battles.",
+    "summary": "Strategy, tactics, and understanding military operations. A key skill in Mass Battles.",
+    "is_core": false
+  },
+  {
+    "name": "Boating",
+    "linked_attribute": "Agility",
+    "description": "Characters with this skill can handle most any boat or ship common to their setting. They also know how to handle common tasks associated with their vessel such as tying knots, rigging sails, or following currents.",
+    "summary": "Ability to sail or pilot a boat, ship, or other watercraft.",
+    "is_core": false
+  },
+  {
+    "name": "Common Knowledge",
+    "linked_attribute": "Smarts",
+    "description": "Characters roll Common Knowledge to know people, places, and things of their world, including etiquette, geography, culture, popular technology, contacts, and customs.",
+    "summary": "General knowledge of a character's world.",
+    "is_core": true
+  },
+  {
+    "name": "Driving",
+    "linked_attribute": "Agility",
+    "description": "Driving allows a hero to control any powered ground vehicle common to his setting. This includes cars, motorcycles, tanks, and the like.",
+    "summary": "The ability to control, steer, and operate ground vehicles.",
+    "is_core": false
+  },
+  {
+    "name": "Electronics",
+    "linked_attribute": "Smarts",
+    "description": "Electronics allows a hero to use complex or specialized devices such as the control panels on industrial machines or the sensor systems found on spaceships in futuristic settings.",
+    "summary": "The use of electronic devices and systems.",
+    "is_core": false
+  },
+  {
+    "name": "Faith",
+    "linked_attribute": "Spirit",
+    "description": "Faith is the arcane skill required for Arcane Background (Miracles).",
+    "summary": "The arcane skill for Arcane Background (Miracles).",
+    "is_core": false
+  },
+  {
+    "name": "Fighting",
+    "linked_attribute": "Agility",
+    "description": "Fighting covers all hand-to-hand (melee) attacks, whether it's with fists, axes, laser swords, or martial arts.",
+    "summary": "Skill in armed and unarmed combat.",
+    "is_core": false
+  },
+  {
+    "name": "Focus",
+    "linked_attribute": "Spirit",
+    "description": "Focus is the arcane skill for Arcane Background (Gifted).",
+    "summary": "The arcane skill for Arcane Background (Gifted).",
+    "is_core": false
+  },
+  {
+    "name": "Gambling",
+    "linked_attribute": "Smarts",
+    "description": "Gambling is common in the saloons of the Old West, the back rooms of criminal organizations, the barracks of most armies, or the flight decks of scifi spaceships.",
+    "summary": "Skill and familiarity with games of chance.",
+    "is_core": false
+  },
+  {
+    "name": "Hacking",
+    "linked_attribute": "Smarts",
+    "description": "Hacking is the skill used to create programs and 'hack' into secured systems. Use of this skill always requires a computer or interface of some sort.",
+    "summary": "Coding, programming, and breaking into computer systems.",
+    "is_core": false
+  },
+  {
+    "name": "Healing",
+    "linked_attribute": "Smarts",
+    "description": "Healing has multiple uses, from treating Wounds to diagnosing diseases and analyzing certain kinds of forensic evidence.",
+    "summary": "The ability to treat and heal Wounds and diseases, and decipher forensic evidence.",
+    "is_core": false
+  },
+  {
+    "name": "Intimidation",
+    "linked_attribute": "Spirit",
+    "description": "Intimidation is the art of frightening an opponent so that he backs down, reveals information, or flees.",
+    "summary": "A character's ability to threaten others into doing what she wants.",
+    "is_core": false
+  },
+  {
+    "name": "Language",
+    "linked_attribute": "Smarts",
+    "description": "In more realistic settings, communication can be a major barrier that requires characters to put skill points into additional languages.",
+    "summary": "Knowledge and fluency in a particular language.",
+    "is_core": false
+  },
+  {
+    "name": "Notice",
+    "linked_attribute": "Smarts",
+    "description": "Notice is a hero's general awareness and alertness. It's used to sense sights, sounds, tastes, and smells, spot clues, detect ambushes, spot hidden weapons on a foe, or tell if a rival is lying, frightened, happy, etc.",
+    "summary": "General awareness and perception.",
+    "is_core": true
+  },
+  {
+    "name": "Occult",
+    "linked_attribute": "Smarts",
+    "description": "Occult reflects knowledge and experience with the paranormal most others don't even believe exists. It can be used to decipher strange pictograms, recall information about supernatural creatures, remember cures for monstrous maladies like lycanthropy or vampirism, or perform rituals.",
+    "summary": "Knowledge of supernatural events, creatures, history, and ways.",
+    "is_core": false
+  },
+  {
+    "name": "Performance",
+    "linked_attribute": "Spirit",
+    "description": "Performance covers singing, acting, playing an instrument, or similar tasks that require an audience to appreciate.",
+    "summary": "Singing, dancing, acting, or other forms of public expression.",
+    "is_core": false
+  },
+  {
+    "name": "Persuasion",
+    "linked_attribute": "Spirit",
+    "description": "Persuasion is the ability to convince others to do what you want through reason, cajoling, deception, rewards, or other friendly means. Persuasion isn't mind control. It can change someone's attitude but not their goals.",
+    "summary": "The ability to convince others to do what you want.",
+    "is_core": true
+  },
+  {
+    "name": "Piloting",
+    "linked_attribute": "Agility",
+    "description": "Piloting allows a character to maneuver airplanes, helicopters, jet packs, or spaceships.",
+    "summary": "Skill with maneuvering vehicles that operate in three dimensions, such as airplanes, helicopters, spaceships, etc.",
+    "is_core": false
+  },
+  {
+    "name": "Psionics",
+    "linked_attribute": "Smarts",
+    "description": "This is the skill 'psions' or 'psis' use to activate and control their psionic abilities.",
+    "summary": "The arcane skill for Arcane Background (Psionics).",
+    "is_core": false
+  },
+  {
+    "name": "Repair",
+    "linked_attribute": "Smarts",
+    "description": "Repair is the ability to take apart and/or fix mechanical gadgets, vehicles, weapons, and simple electrical devices. It also covers the use of demolitions and explosives.",
+    "summary": "The ability to fix mechanical and electrical gadgets.",
+    "is_core": false
+  },
+  {
+    "name": "Research",
+    "linked_attribute": "Smarts",
+    "description": "A character skilled in Research knows how to make good use of libraries, newspaper morgues, the internet, or other written sources of information.",
+    "summary": "Finding written information from various sources.",
+    "is_core": false
+  },
+  {
+    "name": "Riding",
+    "linked_attribute": "Agility",
+    "description": "Riding allows a hero to mount, control, and ride any beast or beast-drawn vehicle common to his setting. This includes horses, camels, dragons, wagons, chariots, and the like.",
+    "summary": "A character's skill in mounting, controlling, and riding a tamed beast.",
+    "is_core": false
+  },
+  {
+    "name": "Science",
+    "linked_attribute": "Smarts",
+    "description": "Those with this skill have studied various hard sciences such as biology, xenobiology, chemistry, geology, engineering, or any other 'hard' science.",
+    "summary": "Knowledge of scientific fields such as biology, chemistry, geology, engineering, etc.",
+    "is_core": false
+  },
+  {
+    "name": "Shooting",
+    "linked_attribute": "Agility",
+    "description": "Shooting covers all attempts to hit a target with a ranged weapon such as a bow, pistol, or rocket launcher (thrown weapons use Athletics).",
+    "summary": "Precision with any type of ranged weapon.",
+    "is_core": false
+  },
+  {
+    "name": "Spellcasting",
+    "linked_attribute": "Smarts",
+    "description": "Mages, wizards, warlocks, and witches use Spellcasting to cast spells.",
+    "summary": "The arcane skill for Arcane Background (Magic).",
+    "is_core": false
+  },
+  {
+    "name": "Stealth",
+    "linked_attribute": "Agility",
+    "description": "Stealth is the ability to hide and move quietly. A simple success on a Stealth roll means the character avoids detection if enemies aren't particularly alert.",
+    "summary": "The ability to sneak and hide.",
+    "is_core": true
+  },
+  {
+    "name": "Survival",
+    "linked_attribute": "Smarts",
+    "description": "Survival allows a character to find food, water, or shelter in hostile environments. It can also be used to navigate wilderness environments, figure out which plants are good to eat and which aren't, and so on.",
+    "summary": "How to find food, water, or shelter, and tracking.",
+    "is_core": false
+  },
+  {
+    "name": "Taunt",
+    "linked_attribute": "Smarts",
+    "description": "Taunt attacks a person's pride through ridicule, cruel jests, or oneupmanship.",
+    "summary": "Insulting or belittling another. Almost always done as a Test.",
+    "is_core": false
+  },
+  {
+    "name": "Thievery",
+    "linked_attribute": "Agility",
+    "description": "Lockpicking, safecracking, picking pockets, sleight of hand, setting and disabling traps and similar acts of misdirection, sabotage, subterfuge, and manipulation are called Thievery.",
+    "summary": "Sleight of hand, pickpocketing, lockpicking, and other typically shady feats.",
+    "is_core": false
+  },
+  {
+    "name": "Weird Science",
+    "linked_attribute": "Smarts",
+    "description": "All mad scientists, inventors, alchemists, or artificers use Weird Science as their arcane skill.",
+    "summary": "The arcane skill for Arcane Background (Weird Science).",
+    "is_core": false
+  }
 ]

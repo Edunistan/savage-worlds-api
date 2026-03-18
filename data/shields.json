@@ -1,27 +1,90 @@
 [
     {
-        "name": "Small shield",
+        "name": "Small",
         "type": "Shield",
         "cost": 50,
         "weight": 4,
         "notes": "",
-
         "category": "Ancient & medieval",
         "parry": 1,
         "cover": 0,
         "min_str": 4
     },
-
     {
-        "name": "Medium shield",
+        "name": "Medium",
         "type": "Shield",
         "cost": 100,
         "weight": 8,
         "notes": "",
-
         "category": "Ancient & medieval",
         "parry": 2,
         "cover": -2,
+        "min_str": 6
+    },
+    {
+        "name": "Large",
+        "type": "Shield",
+        "cost": 200,
+        "weight": 12,
+        "notes": "",
+        "category": "Ancient & medieval",
+        "parry": 3,
+        "cover": -4,
+        "min_str": 8
+    },
+    {
+        "name": "Riot Shield",
+        "type": "Shield",
+        "cost": 80,
+        "weight": 5,
+        "notes": "",
+        "category": "Modern",
+        "parry": 3,
+        "cover": -4,
+        "min_str": 4
+    },
+    {
+        "name": "Ballistic Shield",
+        "type": "Shield",
+        "cost": 250,
+        "weight": 9,
+        "notes": "Reduces damage from firearms by 4 when an attacker tries to shoot through it.",
+        "category": "Modern",
+        "parry": 3,
+        "cover": -4,
+        "min_str": 6
+    },
+    {
+        "name": "Polymer Shield, Small",
+        "type": "Shield",
+        "cost": 200,
+        "weight": 2,
+        "notes": "",
+        "category": "Futuristic",
+        "parry": 1,
+        "cover": 0,
+        "min_str": 4
+    },
+    {
+        "name": "Polymer Shield, Medium",
+        "type": "Shield",
+        "cost": 300,
+        "weight": 4,
+        "notes": "",
+        "category": "Futuristic",
+        "parry": 2,
+        "cover": -2,
+        "min_str": 4
+    },
+    {
+        "name": "Polymer Shield, Large",
+        "type": "Shield",
+        "cost": 400,
+        "weight": 6,
+        "notes": "",
+        "category": "Futuristic",
+        "parry": 3,
+        "cover": -4,
         "min_str": 6
     }
 ]
