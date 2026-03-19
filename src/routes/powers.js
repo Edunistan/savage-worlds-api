@@ -29,6 +29,22 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.get("/modifiers", async (req, res) => {
+  let result;
+
+  try {
+      result = await pool.query(
+        `SELECT * FROM modifiers WHERE is_generic = true ORDER BY id`,
+      );
+
+    res.json(result.rows);
+
+  } catch (err) {
+    console.error(err);
+    res.status(500).json({ error: "Server error" });
+  }
+});
+
 router.get("/backgrounds", async (req, res) => {
   let result;
 

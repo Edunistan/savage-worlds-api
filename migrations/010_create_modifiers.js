@@ -5,8 +5,9 @@ async function up() {
     CREATE TABLE modifiers (
       id SERIAL PRIMARY KEY,
       name VARCHAR(100) NOT NULL,
-      cost VARCHAR(10),
-      description TEXT
+      cost VARCHAR(100),
+      description TEXT,
+      is_generic BOOLEAN
     );
   `);
 

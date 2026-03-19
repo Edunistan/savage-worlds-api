@@ -6,12 +6,13 @@ async function seed() {
   const values = modifiers.map(m => [
     m.name,
     m.cost,
-    m.description
+    m.description,
+    m.is_generic
   ]);
 
   const query = `
-  INSERT INTO modifiers (name, cost, description)
-  VALUES ($1, $2, $3)
+  INSERT INTO modifiers (name, cost, description, is_generic)
+  VALUES ($1, $2, $3, $4)
   `;
 
   for (const v of values) {

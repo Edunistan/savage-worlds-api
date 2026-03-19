@@ -2,101 +2,265 @@
     {
         "name": "Additional Recipients",
         "cost": "1",
-        "description": "The power may affect more than one target for 1 additional Power Point each."
+        "description": "The power may affect more than one target for 1 additional Power Point each.",
+        "is_generic": true
     },
     {
         "name": "Damage",
         "cost": "1",
-        "description": "The barrier causes 2d4 damage to anyone who contacts it."
+        "description": "The barrier causes 2d4 damage to anyone who contacts it.",
+        "is_generic": false
     },
     {
         "name": "Hardened",
         "cost": "1",
-        "description": "The wall is Hardness 12."
+        "description": "The wall is Hardness 12.",
+        "is_generic": false
     },
     {
         "name": "Shaped",
         "cost": "2",
-        "description": "The barrier forms a circle, square or other basic shape."
+        "description": "The barrier forms a circle, square or other basic shape.",
+        "is_generic": false
     },
     {
         "name": "Size",
         "cost": "1",
-        "description": "The length and height of the barrier doubles."
+        "description": "The length and height of the barrier doubles.",
+        "is_generic": false
     },
     {
         "name": "Mind Rider",
         "cost": "1",
-        "description": "The caster can communicate and sense through any of the beasts he's befriended."
+        "description": "The caster can communicate and sense through any of the beasts he's befriended.",
+        "is_generic": false
     },
     {
         "name": "Area of Effect",
         "cost": "0/1",
-        "description": "The caster can focus the blast to a Small Blast Template for no extra cost, or a Large Blast Template for +1."
+        "description": "The caster can focus the blast to a Small Blast Template for no extra cost, or a Large Blast Template for +1.",
+        "is_generic": true
     },
     {
         "name": "Damage",
         "cost": "2",
-        "description": "The power causes 3d6 damage (4d6 with a raise)."
+        "description": "The power causes 3d6 damage (4d6 with a raise).",
+        "is_generic": true
     },
     {
         "name": "Area of Effect",
         "cost": "2/3",
-        "description": "For +2 points the power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+        "description": "For +2 points the power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template.",
+        "is_generic": true
     },
     {
         "name": "Strong",
         "cost": "1",
-        "description": "The roll to shake off the effect is made at -2."
+        "description": "The roll to shake off the effect is made at -2.",
+        "is_generic": true
     },
     {
         "name": "Power",
         "cost": "1",
-        "description": "The caster can burrow through stone, concrete, or similar substances. (Some substances, like plastic, glass, solid lead, etc., might be resistant at the GM's discretion.)"
+        "description": "The caster can burrow through stone, concrete, or similar substances. (Some substances, like plastic, glass, solid lead, etc., might be resistant at the GM's discretion.)",
+        "is_generic": false
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Damage",
+        "cost": "2",
+        "description": "The damage field causes 2d6 damage.",
+        "is_generic": false
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Area of Effect",
+        "cost": "1/2",
+        "description": "The power affects everything in a sphere the size of a Medium Blast Template for +1 points, or a Large Blast Template for +2.",
+        "is_generic": true
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Strong",
+        "cost": "1",
+        "description": "Detection rolls to see through the concealment are made at -2.",
+        "is_generic": false
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Size",
+        "cost": "1",
+        "description": "The recipient may assume the shape of someone up to two Sizes larger or smaller than themselves.",
+        "is_generic": false
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Power",
+        "cost": "1",
+        "description": "Dispel can disrupt enchanted devices for one round, or two with a raise. The difficulty to do so is -2 for permanently enchanted items such as found in most swords & sorcery campaigns, or -4 for divine or legendary relics.",
+        "is_generic": false
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Strong",
+        "cost": "2",
+        "description": "The entangling material is particularly resilient. Rolls to break free are made at -2 and its Toughness increases to 7.",
+        "is_generic": false
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Additional Recipients",
+        "cost": "2",
+        "description": "The power may affect more than one target for 2 additional Power Point each.",
+        "is_generic": true
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Area Effect",
+        "cost": "1",
+        "description": "The power affects a Large Blast Template.",
+        "is_generic": true
     },
     {
-        "name": "",
-        "cost": "",
-        "description": ""
+        "name": "Greater Healing",
+        "cost": "10",
+        "description": "Greater healing can restore any Wound, including those more than an hour old.",
+        "is_generic": false
+    },
+    {
+        "name": "Crippling Injuries",
+        "cost": "20",
+        "description": "The power can heal a permanent Crippling Injury. This requires an hour of preparation and only one  casting is permitted per injury. If it fails, this caster cannot heal that particuar injury (but someone else may try). If successful, the subject is Exhausted for 24 hours.",
+        "is_generic": false
+    },
+    {
+        "name": "Neutralize Poison or Disease",
+        "cost": "1",
+        "description": "A successful healing roll negates any poison or disease. If the poison or disease has a bonus or penalty associated with it, the modifier applies to the arcane skill roll as well.",
+        "is_generic": false
+    },
+    {
+        "name": "Sound",
+        "cost": "1",
+        "description": "The power generates sound appropiate fo the illusion. Illusionary allies may talk, illusionary crows caw, and so on. It may not mask or mute existing sound, however.",
+        "is_generic": false
+    },
+    {
+        "name": "Strong",
+        "cost": "2",
+        "description": "Smarts rolls to disbelieve the illusion are made at -2.",
+        "is_generic": false
+    },
+    {
+        "name": "Additional Recipients",
+        "cost": "3",
+        "description": "The power may affect more than one target for 3 additional Power Point each.",
+        "is_generic": true
+    },
+    {
+        "name": "Mobile",
+        "cost": "1",
+        "description": "The caster can move the area of effect up to his arcane skill die type each round after casting, or attach it to an inanimate object when first cast.",
+        "is_generic": true
+    },
+    {
+        "name": "Edit",
+        "cost": "1",
+        "description": "Instead of wiping the memory, the caster edits it as she sees fit instead.",
+        "is_generic": false
+    },
+    {
+        "name": "Fast Cast",
+        "cost": "2",
+        "description": "The caster can wipe a memory as an action.",
+        "is_generic": false
+    },
+    {
+        "name": "Audible History",
+        "cost": "2",
+        "description": "The caster can now hear sounds and conversations as well.",
+        "is_generic": false
+    },
+    {
+        "name": "More Armor",
+        "cost": "1",
+        "description": "Success grants 4 points of Armor (+6 with a raise).",
+        "is_generic": false
+    },
+    {
+        "name": "Toughness",
+        "cost": "2",
+        "description": "Protection provides Toughness instead of Armor and is not affected by AP (magical or otherwise). This means it stacks with natural or worn armor.",
+        "is_generic": false
+    },
+    {
+        "name": "Power",
+        "cost": "5",
+        "description": "The hero can raise a spirit dead up to a decade.",
+        "is_generic": false
+    },
+    {
+        "name": "Speech",
+        "cost": "1",
+        "description": "The recipient retains the power of speech.",
+        "is_generic": false
+    },
+    {
+        "name": "Quickness",
+        "cost": "2",
+        "description": "Speed only. The character's total Multi-Action penalty each turn is reduced by 2 (she can do two actions at no penalty or three at -2 each).",
+        "is_generic": false
+    },
+    {
+        "name": "Targeted",
+        "cost": "1",
+        "description": "Instead of casting the power in an area of effect, the caster may instead target individuals in Range for 1 Power Point each. Each victim resists with Spirit (at -2 if the power is activated with a raise).",
+        "is_generic": true
+    },
+    {
+        "name": "Bite/Claw",
+        "cost": "1",
+        "description": "The ally can bite or claw at Str+d6.",
+        "is_generic": false
+    },
+    {
+        "name": "Flight",
+        "cost": "2",
+        "description": "The ally can fly at Pace 12.",
+        "is_generic": false
+    },
+    {
+        "name": "Mind Rider",
+        "cost": "1",
+        "description": "The caster can communicate and sense through the ally.",
+        "is_generic": false
+    },
+    {
+        "name": "Teleport Foe",
+        "cost": "2",
+        "description": "Foes may be targeted by a Touch attack. This is an action, so the casting must be the second part of a Multi-Action if the attack is successful. The foe resists the casting with an opposed Spirit roll againstthe arcane skill total and is sent up to 12\" away with success and 24\" with a raise. Foes may not be teleported into solid objects.",
+        "is_generic": false
+    },
+    {
+        "name": "Additional Zombies",
+        "cost": "1",
+        "description": "A larger horde can be raised in a single casting by paying 1 Power Point for each extra zombie raised.",
+        "is_generic": false
+    },
+    {
+        "name": "Armed",
+        "cost": "+1 per Zombie",
+        "description": "The dead rise with a rusting weapon common to their setting and enviroment. Choose one:\n• Hand Weapon: Str+d6.\n•Ranged Weapon: Range 12/24/48, Damage 2d6.",
+        "is_generic": false
+    },
+    {
+        "name": "Armor",
+        "cost": "+1 per Zombie",
+        "description": "The horrors crawl from their grave wearing 2 points of Armor. This might be old chain mail, rusting plate, rotting bulletproof vests, etc.",
+        "is_generic": false
+    },
+    {
+        "name": "Mind Rider",
+        "cost": "1",
+        "description": "The caster can communicate and sense through one of the undead he's conjured. If it's destroyed, he may jump to any of the others currently under his control.",
+        "is_generic": false
+    },
+    {
+        "name": "Permanent",
+        "cost": "0",
+        "description": "The zombie is given unlife until destroyed (Incapacitated by Wounds). This has no additional cost, but the Power Points used to raise it are invested and unavailable until it's destroyed. The necromancer who raised it may terminate its unlife at any time.",
+        "is_generic": false
     }
 ]
