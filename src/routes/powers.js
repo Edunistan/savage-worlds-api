@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
          WHERE 
            ($1::text IS NULL OR name ILIKE $1 OR description ILIKE $1 OR summary ILIKE $1 OR trappings ILIKE $1)
            AND ($2::text IS NULL OR rank ILIKE $2)
-           AND ($3::text IS NULL or power_points ILIKE $3)
+           AND ($3::text IS NULL OR power_points ILIKE $3)
          ORDER BY id`,
         [
           q ? `%${q}%` : null,
@@ -29,12 +29,21 @@ router.get("/", async (req, res) => {
   }
 });
 
+
 router.get("/modifiers", async (req, res) => {
+  const { q } = req.query;
   let result;
 
   try {
       result = await pool.query(
-        `SELECT * FROM modifiers WHERE is_generic = true ORDER BY id`,
+        `SELECT * FROM modifiers
+        WHERE
+          (is_generic = true)
+          AND ($1::text IS NULL OR name ILIKE $1 OR description ILIKE $1)
+        ORDER BY id`,
+          [
+            q ? `%${q}%` : null
+          ]
       );
 
     res.json(result.rows);

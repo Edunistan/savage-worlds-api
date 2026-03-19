@@ -93,7 +93,7 @@ router.get("/shields", async (req, res) => {
 });
 
 router.get("/armors", async (req, res) => {
-  const { q, max_c, max_w, max_s } = req.query;
+  const { q, max_c, max_w, max_s, c, s } = req.query;
 
   try {
     const result = await pool.query(
@@ -108,12 +108,16 @@ router.get("/armors", async (req, res) => {
         AND ($2::text IS NULL OR g.cost <= $2::integer)
         AND ($3::text IS NULL OR g.weight <= $3::integer)
         AND ($4::text IS NULL OR min_str <= $4::integer)
+        AND ($5::text IS NULL OR category ILIKE $5)
+        AND ($6::text IS NULL OR subcategory ILIKE $6)
       ORDER BY g.id`,
       [
         q ? `%${q}%` : null,
         max_c ? max_c : null,
         max_w ? max_w : null,
-        max_s ? max_s : null
+        max_s ? max_s : null,
+        c ? `%${c}%` : null,
+        s ? `%${s}%` : null
       ]
     );
 
@@ -126,7 +130,7 @@ router.get("/armors", async (req, res) => {
 });
 
 router.get("/melee_weapons", async (req, res) => {
-  const { q, max_c, max_w, max_s, dmg } = req.query;
+  const { q, max_c, max_w, max_s, dmg, c } = req.query;
 
   try {
     const result = await pool.query(
@@ -142,13 +146,15 @@ router.get("/melee_weapons", async (req, res) => {
         AND ($3::text IS NULL OR g.weight <= $3::integer)
         AND ($4::text IS NULL OR min_str <= $4::integer)
         AND ($5::text IS NULL OR damage ILIKE $5)
+        AND ($6::text IS NULL OR category ILIKE $6)
       ORDER BY g.id`,
       [
         q ? `%${q}%` : null,
         max_c ? max_c : null,
         max_w ? max_w : null,
         max_s ? max_s : null,
-        dmg ? `%${dmg}%` : null
+        dmg ? `%${dmg}%` : null,
+        c ? `%${c}%` : null
       ]
     );
 
@@ -161,7 +167,7 @@ router.get("/melee_weapons", async (req, res) => {
 });
 
 router.get("/ranged_weapons", async (req, res) => {
-  const { q, max_c, max_w, max_s, dmg } = req.query;
+  const { q, max_c, max_w, max_s, dmg, c, s } = req.query;
 
   try {
     const result = await pool.query(
@@ -177,13 +183,17 @@ router.get("/ranged_weapons", async (req, res) => {
         AND ($3::text IS NULL OR g.weight <= $3::integer)
         AND ($4::text IS NULL OR min_str <= $4::integer)
         AND ($5::text IS NULL OR damage ILIKE $5)
+        AND ($6::text IS NULL OR category ILIKE $6)
+        AND ($7::text IS NULL OR subcategory ILIKE $7)
       ORDER BY g.id`,
       [
         q ? `%${q}%` : null,
         max_c ? max_c : null,
         max_w ? max_w : null,
         max_s ? max_s : null,
-        dmg ? `%${dmg}%` : null
+        dmg ? `%${dmg}%` : null,
+        c ? `%${c}%` : null,
+        s ? `%${s}%` : null
       ]
     );
 
