@@ -4,16 +4,99 @@
         "cost": "1",
         "description": "The power may affect more than one target for 1 additional Power Point each."
     },
-
     {
-        "name": "More Armor",
+        "name": "Damage",
         "cost": "1",
-        "description": "Success grants 4 points of Armor (+6 with a raise)."
+        "description": "The barrier causes 2d4 damage to anyone who contacts it."
     },
-
     {
-        "name": "Toughness",
+        "name": "Hardened",
+        "cost": "1",
+        "description": "The wall is Hardness 12."
+    },
+    {
+        "name": "Shaped",
         "cost": "2",
-        "description": "Provides Toughness instead of Armor and is not affected by AP (magical or otherwise). This means it stacks with natural or worn armor."
+        "description": "The barrier forms a circle, square or other basic shape."
+    },
+    {
+        "name": "Size",
+        "cost": "1",
+        "description": "The length and height of the barrier doubles."
+    },
+    {
+        "name": "Mind Rider",
+        "cost": "1",
+        "description": "The caster can communicate and sense through any of the beasts he's befriended."
+    },
+    {
+        "name": "Area of Effect",
+        "cost": "0/1",
+        "description": "The caster can focus the blast to a Small Blast Template for no extra cost, or a Large Blast Template for +1."
+    },
+    {
+        "name": "Damage",
+        "cost": "2",
+        "description": "The power causes 3d6 damage (4d6 with a raise)."
+    },
+    {
+        "name": "Area of Effect",
+        "cost": "2/3",
+        "description": "For +2 points the power affects everyone in a Medium Blast Template. For +3 points the area of effect is increased to a Large Blast Template."
+    },
+    {
+        "name": "Strong",
+        "cost": "1",
+        "description": "The roll to shake off the effect is made at -2."
+    },
+    {
+        "name": "Power",
+        "cost": "1",
+        "description": "The caster can burrow through stone, concrete, or similar substances. (Some substances, like plastic, glass, solid lead, etc., might be resistant at the GM's discretion.)"
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
+    },
+    {
+        "name": "",
+        "cost": "",
+        "description": ""
     }
 ]

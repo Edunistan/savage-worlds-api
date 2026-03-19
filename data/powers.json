@@ -8,7 +8,7 @@
         "trappings": "Concentration, a dull glow around the protected character, a fetish.",
         "description": "Success with arcane protection means hostile powers suffer a -2 penalty (-4 with a raise) to affect this character. If the power causes harm, damage is also reduced a like amount. Arcane protection stacks with Arcane Resistance should the recipient have both!",
         "summary": "Enemy casters subtract 2 (4 with a raise) when targeting this character; reduces damage a like amount.",
-        "modifiers": []
+        "modifiers": [1]
     },
     {
         "name": "Banish",
@@ -30,7 +30,7 @@
         "trappings": "Fire, ice, thorns, force, bones, energy.",
         "description": "Barrier creates a straight wall 5\" (10 yards) long and 1\" (two yards) tall, of immobile material that conforms to the surface it's cast upon. Thickness varies depending on what the wall is made of, but is usually a few inches. The wall has a Hardness of 10, and may be destroyed as any other object. When the spell expires or the wall is broken it crumbles to dust or dissipates. Trappings are never left behind.",
         "summary": "Creates 5\" (10 yards) long, 1\" (2 yards) tall, Hardness 10 barrier.",
-        "modifiers": []
+        "modifiers": [2, 3, 4, 5]
     },
     {
         "name": "Beast Friend",
@@ -41,7 +41,7 @@
         "trappings": "The caster concentrates and gestures with his hands.",
         "description": "This spell allows an individual to speak with and guide the actions of nature's beasts. The cost to cast is equal to the sum of their Size (minimum 1 per creature). Controlling five wolves (Size -1) costs 5 points, for example. Controlling a rhino (Size 5) costs 5 points. Success means the creatures obey simple commands, like a well-trained dog. They attack foes and endanger their lives for their master. A raise on the arcane skill roll means the beasts are more obedient. They won't kill themselves but overcome their natural fears to follow their orders. Swarms can also be controlled. Small Swarms cost 1 point, Medium Swarms cost 2, and Large Swarms cost 3. Beast friend works only on natural creatures with animal intelligence, not humanoids, and has no effect on conjured, magical, or otherwise 'unnatural' animals.",
         "summary": "Controls animals.",
-        "modifiers": []
+        "modifiers": [6]
     },
     {
         "name": "Blast",
@@ -52,7 +52,7 @@
         "trappings": "Balls of fire, ice, light, darkness, colored bolts, swarm of insects.",
         "description": "Blast launches a ball of explosive energy or matter. The area of effect is a Medium Blast Template. Every target within suffers 2d6 damage, or 3d6 with a raise (see Area Effect Attacks, page 97).",
         "summary": "2d6 damage in Medium Blast Template.",
-        "modifiers": []
+        "modifiers": [7, 8]
     },
     {
         "name": "Blind",
@@ -63,7 +63,7 @@
         "trappings": "Bright flash of light, sand in eyes, confusion.",
         "description": "Those affected by this malicious power suffer blurred vision or near-complete blindness with a raise. Success means the victim suffers a -2 penalty to all actions requiring sight, or -4 with a raise. The victim automatically tries to shake off the effect with a Vigor roll as a free action at the end of his following turns. Success removes 2 points of penalties, and a raise removes the effect entirely.",
         "summary": "Inflicts -2/-4 penalty to victims.",
-        "modifiers": []
+        "modifiers": [9, 10]
     },
     {
         "name": "Bolt",
@@ -74,7 +74,7 @@
         "trappings": "Fire, ice, light, darkness, colored bolts, a stream of insects.",
         "description": "Bolt sends damaging bursts of energy, streaks of holy light, or shards of matter toward one's foes. There are no Range penalties, but the arcane skill roll is affected by Cover, Illumination, and all other usual penalties. The damage of the bolt is 2d6, or 3d6 with a raise.",
         "summary": "2d6 ranged attack.",
-        "modifiers": []
+        "modifiers": [8]
     },
     {
         "name": "Boost/Lower Trait",
@@ -85,7 +85,7 @@
         "trappings": "Physical change, glowing aura, potions.",
         "description": "This power allows a character to increase or decrease a target's Trait (attribute or skill). Boosting an ally's Trait increases the selected Trait one die type, or two with a raise. Lowering an enemy's Trait has a Duration of Instant and lowers the selected attribute or skill a die type with success, or two with a raise (to a minimum of d4). A victim automatically tries to shake off the effect with a Spirit roll as a free action at the end of his following turns. Success improves the effect one die type, and a raise removes the effect entirely. Additional castings don't stack on a single Trait (take the highest), but may affect different Traits.",
         "summary": "Increases or decreases a skill or attribute.",
-        "modifiers": []
+        "modifiers": [1, 10]
     },
     {
         "name": "Burrow",
@@ -96,7 +96,7 @@
         "trappings": "Dissolving into the earth and appearing elsewhere.",
         "description": "Burrow allows the recipient to meld into raw earth. He can remain underground if he wants in a sort of \"limbo\" or burrow through the ground at half his normal Pace (or full Pace with a raise). He may not run. A burrowing character may attempt to surprise a foe by making an opposed Stealth versus Notice roll. If the burrower wins, the target is Vulnerable to him only. With a raise, the burrower gets the Drop. Targets on Hold may attempt to interrupt the attack before it occurs. Burrowers can't usually surprise a foe once their presence is known, but can still burrow for protection and mobility.",
         "summary": "arget tunnels through the earth.",
-        "modifiers": []
+        "modifiers": [1, 11]
     },
     {
         "name": "Burst",
@@ -107,7 +107,7 @@
         "trappings": "A shower of flames, light, or other matter or energy.",
         "description": "Burst produces a large fan of energy that bathes its targets in red-hot fire, a cone of cold, or other damaging matter or energy. Success creates a Cone Template starting at the caster and extending outward (see Area Effect Attacks, page 97). Everything within suffers 2d6 damage (or 3d6 with a raise).",
         "summary": "Cone-shaped attack for 2d6 damage.",
-        "modifiers": []
+        "modifiers": [8]
     },
     {
         "name": "Confusion",
@@ -118,7 +118,7 @@
         "trappings": "Hypnotic lights, brief illusions, loud noises.",
         "description": "Confusion confounds a target, making him both Distracted and Vulnerable if he fails a Smarts roll (at -2 with a raise on the arcane skill roll). Both states are removed at the end of the victim's next turn.",
         "summary": "Makes target Distracted and Vulnerable.",
-        "modifiers": []
+        "modifiers": [9]
     },
     {
         "name": "Damage Field",
