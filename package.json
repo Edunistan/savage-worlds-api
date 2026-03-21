@@ -1,0 +1,29 @@
+{
+  "name": "savage-worlds-api",
+  "version": "1.0.0",
+  "description": "Character creator for the roleplaying setting Savage Worlds.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eduuuuuuuuuuuuuuuuuuuuu/savage-worlds-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eduuuuuuuuuuuuuuuuuuuuu/savage-worlds-api/issues"
+  },
+  "homepage": "https://github.com/Eduuuuuuuuuuuuuuuuuuuuu/savage-worlds-api#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "pg": "^8.20.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

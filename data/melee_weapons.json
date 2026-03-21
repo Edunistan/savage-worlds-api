@@ -1,0 +1,302 @@
+[
+    {
+        "name": "Axe, Hand",
+        "type": "Melee weapon",
+        "cost": 100,
+        "weight": 2,
+        "notes": "",
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    },
+    {
+        "name": "Axe, Battle",
+        "type": "Melee weapon",
+        "cost": 300,
+        "weight": 4,
+        "notes": "",
+        "category": "Medieval",
+        "damage": "Str+d8",
+        "min_str": 8
+    },
+    {
+        "name": "Axe, Great",
+        "type": "Melee weapon",
+        "cost": 400,
+        "weight": 7,
+        "notes": "AP 2, Parry -1, two hands",
+        "category": "Medieval",
+        "damage": "Str+d10",
+        "min_str": 10
+    },
+    {
+        "name": "Club, Light",
+        "type": "Melee weapon",
+        "cost": 25,
+        "weight": 2,
+        "notes": "A sign of low status or thuggery",
+        "category": "Medieval",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Club, Heavy",
+        "type": "Melee weapon",
+        "cost": 50,
+        "weight": 5,
+        "notes": "A sign of low status or thuggery",
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    },
+    {
+        "name": "Dagger/Knife",
+        "type": "Melee weapon",
+        "cost": 25,
+        "weight": 1,
+        "notes": "",
+        "category": "Medieval",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Flail",
+        "type": "Melee weapon",
+        "cost": 200,
+        "weight": 3,
+        "notes": "Ignores shield bonus",
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    },
+    {
+        "name": "Halberd",
+        "type": "Melee weapon",
+        "cost": 250,
+        "weight": 6,
+        "notes": "Reach 1, two hands",
+        "category": "Medieval",
+        "damage": "Str+d8",
+        "min_str": 8
+    },
+    {
+        "name": "Katana",
+        "type": "Melee weapon",
+        "cost": 1000,
+        "weight": 3,
+        "notes": "Two hands",
+        "category": "Medieval",
+        "damage": "Str+d6+1",
+        "min_str": 6
+    },
+    {
+        "name": "Lance",
+        "type": "Melee weapon",
+        "cost": 300,
+        "weight": 6,
+        "notes": "AP 2 when charging, Reach 2, only usable in mounted combat",
+        "category": "Medieval",
+        "damage": "Str+d8",
+        "min_str": 8
+    },
+    {
+        "name": "Mace",
+        "type": "Melee weapon",
+        "cost": 100,
+        "weight": 4,
+        "notes": "",
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    },
+    {
+        "name": "Maul",
+        "type": "Melee weapon",
+        "cost": 400,
+        "weight": 10,
+        "notes": "Two hands, +2 damage to break objects",
+        "category": "Medieval",
+        "damage": "Str+d10",
+        "min_str": 10
+    },
+    {
+        "name": "Pike",
+        "type": "Melee weapon",
+        "cost": 400,
+        "weight": 18,
+        "notes": "Reach 2, two hands",
+        "category": "Medieval",
+        "damage": "Str+d8",
+        "min_str": 8
+    },
+    {
+        "name": "Rapier",
+        "type": "Melee weapon",
+        "cost": 150,
+        "weight": 2,
+        "notes": "Parry +1",
+        "category": "Medieval",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Spear",
+        "type": "Melee weapon",
+        "cost": 100,
+        "weight": 3,
+        "notes": "Reach 1. Parry +1 if used two-handed",
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    },
+    {
+        "name": "Staff",
+        "type": "Melee weapon",
+        "cost": 10,
+        "weight": 4,
+        "notes": "Parry +1, Reach 1, two hands",
+        "category": "Medieval",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Sword, Great",
+        "type": "Melee weapon",
+        "cost": 400,
+        "weight": 6,
+        "notes": "Two hands",
+        "category": "Medieval",
+        "damage": "Str+d10",
+        "min_str": 10
+    },
+    {
+        "name": "Sword, Long",
+        "type": "Melee weapon",
+        "cost": 300,
+        "weight": 3,
+        "notes": "Basic swords and scimitars",
+        "category": "Medieval",
+        "damage": "Str+d8",
+        "min_str": 8
+    },
+    {
+        "name": "Sword, Short",
+        "type": "Melee weapon",
+        "cost": 100,
+        "weight": 2,
+        "notes": "Includes cavalry sabers",
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    },
+    {
+        "name": "Warhammer",
+        "type": "Melee weapon",
+        "cost": 250,
+        "weight": 2,
+        "notes": "Spiked, AP 1",
+        "category": "Medieval",
+        "damage": "Str+d6",
+        "min_str": 6
+    },
+    {
+        "name": "Bangstick",
+        "type": "Melee weapon",
+        "cost": 5,
+        "weight": 2,
+        "notes": "A shotgun shell on a stick used in melee; must be reloaded with a fresh shell (one action)",
+        "category": "Modern",
+        "damage": "3d6",
+        "min_str": 6
+    },
+    {
+        "name": "Bayonet",
+        "type": "Melee weapon",
+        "cost": 25,
+        "weight": 1,
+        "notes": "Str+d6 and Parry +1 attached to rifle, Reach 1, two hands",
+        "category": "Modern",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Billy Club/Baton",
+        "type": "Melee weapon",
+        "cost": 10,
+        "weight": 1,
+        "notes": "Often carried by law enforcement",
+        "category": "Modern",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Brass Knuckles",
+        "type": "Melee weapon",
+        "cost": 20,
+        "weight": 1,
+        "notes": "Do not count as a weapon for Unarmed Defender.",
+        "category": "Modern",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Chainsaw",
+        "type": "Melee weapon",
+        "cost": 200,
+        "weight": 20,
+        "notes": "Critical Failure hits the user",
+        "category": "Modern",
+        "damage": "2d6+4",
+        "min_str": 6
+    },
+    {
+        "name": "Switchblade",
+        "type": "Melee weapon",
+        "cost": 10,
+        "weight": 0.5,
+        "notes": "-2 to be Noticed if hidden",
+        "category": "Modern",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Survival Knife",
+        "type": "Melee weapon",
+        "cost": 50,
+        "weight": 1,
+        "notes": "Basic tools in handle add +1 to Survival rolls",
+        "category": "Modern",
+        "damage": "Str+d4",
+        "min_str": 4
+    },
+    {
+        "name": "Molecular Knife",
+        "type": "Melee weapon",
+        "cost": 250,
+        "weight": 0.5,
+        "notes": "AP 2, Cannot be thrown",
+        "category": "Futuristic",
+        "damage": "Str+d4+2",
+        "min_str": 4
+    },
+    {
+        "name": "Molecular Sword",
+        "type": "Melee weapon",
+        "cost": 500,
+        "weight": 2,
+        "notes": "AP 4",
+        "category": "Futuristic",
+        "damage": "Str+d8+2",
+        "min_str": 6
+    },
+    {
+        "name": "Laser Sword",
+        "type": "Melee weapon",
+        "cost": 1000,
+        "weight": 2,
+        "notes": "AP 12",
+        "category": "Futuristic",
+        "damage": "Str+d6+8",
+        "min_str": 4
+    }
+]

@@ -1,0 +1,109 @@
+[
+  {
+    "name": "Android",
+    "description": "Androids are semi-organic beings created by advanced technology. The example here mimics humans in most ways and can generally pass for them when desired (and not examined by a physician). Their advanced neural network gives them artificial intelligence complete with individual personalities, quirks, and emotions just like any other sapient being.",
+    "abilities": [
+      "Pacifist (Major): Unless the android is designed for combar, most advanced societies require the installation of 'Asimov Circuits', a concept based on science fiction writer Isaac Asimov's 'First Law of Robotics.'\nThe artificial being may not injure a sapient being, or through action or inaction, allow such a being to be harmed. This gives them the Pacifist (Major) Hindrance.",
+      "Outsider (Major): Androids subtract 2 from Persuasion rolls when interacting with anyone besides other androids, and have no legal rights in most areas (they're generally considered property).",
+      "Vow (Major): Constructs are designed with a particular purpose. Player character constructs have broad directives such as serving a particular corporation or political faction. This acts as a Major Vow to that particular directive. If this ever causes a conflict of interest, the player and GM must figure out what the construct's programming requires."
+    ],
+    "image_url": ""
+  },
+  {
+    "name": "Aquarian",
+    "description": "From the crushing ocean depths come aquatic folk. They are thick and sturdy beneath the waves but often vulnerable in the dry air or searing heat of the surface.",
+    "abilities": [
+      "Aquatic: Aquarians cannot drown in water and move at their full Pace when swimming.",
+      "Dependency: Aquarians must immerse themselves in water one hour out of every 24 or become automatically Fatigued each day until they are Incapacitated. The day after Incapacitation from dehydration, they perish. Each hour spent in water restores one level of Fatigue.",
+      "Low Light Vision: Aquarians are used to the darkness of the depths. They ignore penalties for Dim and Dark Illumination.",
+      "Toughness: Life in the depths of their watery worlds has made aquarian flesh tough and resilient. Add +1 to their Toughness."
+    ],
+    "image_url": ""
+  },
+  {
+    "name": "Avion",
+    "description": "Avions are humanoids with wings. They tend to be very slight of build owing to their hollow bones. Some are feathered while others are leathery or even scaled.",
+    "abilities": [
+      "Can't Swim: Avions' wings are a hazard in water. They subtract 2 from Athletics (swimming) rolls and each inch moved in water costs them 3'' of Pace.",
+      "Flight: Avions fly at Pace 12 per round. Use Athletics when maneuvering.",
+      "Frail: Avions have -1 Toughness due to their hollow bones.",
+      "Keen Senses: Avions are more perceptive than most. They begin with a d6 in Notice (instead of d4) and may raise the skill to d12 + 1.",
+      "Reduced Pace: Dependence on flight and bulky wings make avions slightly slower when walking. Decrease their walking Pace by 1 and their running die by one step."
+    ],
+    "image_url": ""
+  },
+  {
+  "name": "Dwarves",
+  "description": "Dwarves are short but stout, hardy people who come from massive caverns or high mountains. They are a proud, warlike race, usually made so by frequent contact with hostile races such as orcs and goblins.\nDwarves usually live upwards of 200 years. In most fantasy campaigns, they have ruddy skin and all human hair colors.",
+  "abilities": [
+    "Low Light Vision: Dwarven eyes are accustomed to the dark of the underearth. They ignore penalties for Dim and Dark Illumination.",
+    "Reduced Pace: Dwarves have short legs compared to most races. Decrease their Pace by 1 and their running die one die type.",
+    "Tough: Dwarves are stout and tough. They start with a d6 Vigor instead of a d4. This increases maximum Vigor to d12 + 1."
+  ],
+  "image_url": ""
+  },
+  {
+    "name": "Elves",
+    "description": "Elves are tall, thin souls with pointed ears and deep-set eyes of various colors. Whether they hail from the deep forests or hidden valleys, they are all born more graceful than humans, though somewhat slighter. Most elves live upwards of 300 years. They have fair skin and their hair includes all human colors, plus shades of silver, blue, and gold.",
+    "abilities": [
+      "Agile: Elves are graceful and agile. They start with a d6 in Agility instead of a d4. This increases maximum Agility to d12 + 1.",
+      "All Thumbs: Elves have an inherent dislike of mechanical objects, and thus have the All Thumbs Hindrance. They shun most mechanical items and designs.",
+      "Low Light Vision: Elven eyes amplify light. Other races often claim they can see stars in the elves' eyes. They ignore penalties for Dim and Dark Illumination."
+    ],
+    "image_url": ""
+  },
+  {
+    "name": "Half-Elves",
+    "description": "Half-elves gain the elves' grace but none of their elegant frailty. Most are well-adjusted, but some are shunned by one side of the family or the other and grow resentful. Others may even be mistreated. Their lifespans are closer to their human parent than those of their elven kin, living only to about 100 years.",
+    "abilities": [
+      "Heritage: Half-elves may retain the grace of their elven parent or the adaptability of their human ancestry. A half-elf may either start with a free Novice Edge of his choice or a d6 in Agility instead of a d4 (which also increases his Agility maximum to d12 + 1).",
+      "Low Light Vision: Half-elves ignore penalties for Dim and Dark Illumination.",
+      "Outsider (Minor): Half-elves are never quite comfortable in human or elven society, having a foot in both worlds but never fully standing in either. They subtract 2 from Persuasion rolls with all but others of their kind."
+    ],
+    "image_url": ""
+  },
+  {
+    "name": "Half-Folk",
+    "description": "Half-folk are small, nimble people with fuzzy brown or black hair. Though they are frail compared to most other races, their cheerful optimism (or wily cunning) gives them a 'never say die' attitude that makes them more than a match for creatures twice their size. Half-folk see no reason to invite trouble and tend to live in their own close-knit communities far off the beaten path.",
+    "abilities": [
+      "Luck: Half-folk draw one additional Benny per game session.",
+      "Reduced Pace: Decrease the character's Pace by 1 and their running die one die type.",
+      "Size -1: Half-folk average only about four feet tall, reducing their Size (and therefore Toughness) by 1.",
+      "Spirited: Half-folk are generally optimistic beings. They start with a d6 Spirit instead of a d4. This increases their maximum Spirit to d12 + 1."
+    ],
+    "image_url": ""
+  },
+  {
+  "name": "Humans",
+  "description": "Humans in most settings get one free Edge of their choice. This option reflects their versatility and adaptability compared to most other races.\nFor more variety, the GM might give humans abilities based on culture rather than race. For instance, a nomadic, horse-based society might start with skill points in Riding and Survival. Cultural templates are designed just like making new races, though GMs should allow for more exceptions than usual since the abilities tend to be learned rather than truly innate.",
+  "abilities": [
+    "Adaptable: Humans begin play with any Novice Edge of their choosing. They must meet its Requirements as usual."
+  ],
+  "image_url": ""
+  },
+  {
+    "name": "Rakashans",
+    "description": "Rakashans are humanoid felines. Some have the bright colors of tigers, the speckled hides of leopards, or the exotic look of Siamese cats. All have sharp claws and teeth, and a cruel nature when it comes to dealing with their prey.\nRakashans can be found in their own remote and exotic cities or as fringe elements of normal society. They are often too clever and beautiful to be shunned, but too cunning to gain others' complete trust.",
+    "abilities": [
+      "Agile: Feline grace gives rakashans a d6 Agility attribute instead of a d4. This increases maximum Agility to d12 + 1.",
+      "Bite/Claws: Rakashan fangs and claws are Natural Weapons that cause Strength + d4 damage.",
+      "Bloodthirsty: Rakashans can be cruel to their foes, often toying with them for simple amusement. They rarely take prisoners and feel little compunction about punishing captured foes.",
+      "Can't Swim: Rakashans actually can swim, they just shun it and are not particularly good at it. They subtract 2 from Athletics (swimming) rolls and each tabletop inch of movement in water uses 3'' of Pace.",
+      "Low Light Vision: Rakashan eyes amplify light. They ignore penalties for Dim and Dark Illumination.",
+      "Racial Enemy: Rakashan society rose at the expense of another. Pick a common race in your setting. Members of each culture subtract 2 from Persuasion when dealing with each other and often attack on sight."
+    ],
+    "image_url": ""
+  },
+  {
+    "name": "Saurians",
+    "description": "Lizard men typically come from steaming jungles or deep deserts where they have unique civilizations unknown to other sentient races.",
+    "abilities": [
+      "Armor +2: Saurians have scaly skin that acts as leather armor.",
+      "Bite: A saurian's fangs are Natural Weapons that cause Strength + d4 damage.",
+      "Environmental Weakness: Though not truly cold-blooded, saurians are poorly suited for frigid conditions. They suffer a -4 penalty to resist cold environmental effects, and suffer +4 damage from cold-based attacks.",
+      "Keen Senses: Saurians have acute senses, giving them the Alertness Edge.",
+      "Outsider (Minor): Most races distrust saurians for some reason. Perhaps it is their strange ways and customs, their often-sibilant speech, or an ancient subconscious fear of their reptilian ancestors. Saurians subtract 2 from Persuasion rolls with all but others of their kind."
+    ],
+    "image_url": ""
+  }
+]
