@@ -2,6 +2,13 @@
 
 Character creator for the roleplaying setting Savage Worlds.
 
+## Data population
+```
+sudo -u postgres psql -d savage_worlds
+for f in migrations/; do node $f; done
+for f in seeds/; do node $f; done
+```
+
 ## Routes
 
 
